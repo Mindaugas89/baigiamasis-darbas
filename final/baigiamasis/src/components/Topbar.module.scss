@@ -1,0 +1,35 @@
+@import "../styles/colors";
+
+.topbar {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e7c2ac;
+  }
+
+  a {
+    margin-right: 2rem;
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+    background-color: transparent; /* Set background to transparent */
+
+    &:hover {
+      text-shadow: 1px 1px 16px rgba(255, 126, 0, 1);
+      background-color: transparent; /* Set background to transparent on hover */
+    }
+  }
+
+  .email {
+    margin-right: 1rem;
+  }
+
+  img {
+    max-width: 10%;
+  }
+}

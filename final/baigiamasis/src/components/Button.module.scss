@@ -1,0 +1,19 @@
+@import "../styles/colors";
+
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $primary-color-dark;
+  }
+
+  &:disabled {
+    background-color: #ccc;
+  }
+}

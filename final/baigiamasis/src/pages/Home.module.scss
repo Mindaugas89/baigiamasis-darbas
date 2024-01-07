@@ -1,0 +1,82 @@
+@import "../styles/colors";
+
+.container {
+  max-width: 1100px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .chatContainer {
+    width: 90%;
+    height: 70vh;
+    background-color: #ececec;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .messages {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .myMessage {
+    align-self: flex-end;
+    background-color: #dcf8c6;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .receivedMessage {
+    align-self: flex-start;
+    background-color: #ffffff;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    color: $primary-color;
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .clientsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .clientItem {
+    width: 35%;
+    border: solid 1px $primary-color;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .buttons {
+ display: flex;
+ justify-content: space-between;
+  }
+
+  span {
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 5px;
+  
+  }
+}

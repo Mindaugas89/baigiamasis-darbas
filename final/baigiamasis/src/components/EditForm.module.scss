@@ -1,0 +1,22 @@
+.editTable {
+  display: flex;
+  flex-direction: column;
+
+  .editButtons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+input {
+  display: block;
+}
+
+

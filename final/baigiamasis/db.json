@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "username": "Mindaugas",
+      "email": "mindaugas@gmail.com",
+      "password": "labas123",
+      "confirmPassword": "labas123",
+      "id": 1
+    }
+  ],
+  "clients": [
+    {
+      "name": "Mindaugas",
+      "surname": "Kuzminskas",
+      "email": "kuzminskas@gmail.com",
+      "age": "34",
+      "id": 1
+    },
+    {
+      "name": "Jonas",
+      "surname": "Valančiūnas",
+      "email": "valančiūnas@gmail.com",
+      "age": "31",
+      "id": 2
+    },
+    {
+      "name": "Rokas",
+      "surname": "Jokūbaitis",
+      "email": "jokubaitis@gmail.com",
+      "age": "23",
+      "id": 3
+    },
+    {
+      "name": "Ignas",
+      "surname": "Brazteikis",
+      "email": "Brazdeikis@gmail.com",
+      "age": "24",
+      "id": 4
+    }
+  ]
+}
